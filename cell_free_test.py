@@ -34,9 +34,9 @@ def run(protocol: protocol_api.ProtocolContext):
     for i in range(3):
         pipette.transfer(2, regent_rack['A3'], tube_rack[f'A{i+1}'], new_tip='always')
 
-    # アミノ酸(6mM)を2ulずつ3ヶ所に分注
+    # アミノ酸(6mM)を5ulずつ3ヶ所に分注
     for i in range(3):
-        pipette.transfer(2, regent_rack['A3'], tube_rack[f'A{i+1}'], new_tip='always')
+        pipette.transfer(5, regent_rack['A3'], tube_rack[f'A{i+1}'], new_tip='always')
 
     # スペルミジン(10mM)を2ulずつ3ヶ所に分注
     for i in range(3):

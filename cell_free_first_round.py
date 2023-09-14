@@ -6,8 +6,8 @@ metadata = {
 }
 
 tube_data = {
-    'Mg_160': 'A1',
-    'Mg_88': 'A2',
+    'Mg_80': 'A1',
+    'Mg_44': 'A2',
     'Mg_16': 'A3',
     'K_1600': 'A4',
     'K_880': 'A5',
@@ -18,8 +18,8 @@ tube_data = {
     'SPD_20': 'B4',
     'SPD_11': 'B5',
     'SPD_2': 'B6',
-    'NTP_30': 'C1',
-    'NTP_16.6': 'C2',
+    'NTP_25': 'C1',
+    'NTP_14': 'C2',
     'NTP_3': 'C3',
     '3PGA_600': 'C4',
     '3PGA_330': 'C5',
@@ -42,198 +42,197 @@ def run(protocol: protocol_api.ProtocolContext):
     pipette = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[tip_rack])
     pipette.starting_tip = tip_rack['A1']
 
-    # pipette.pick_up_tip(tip_rack['A1'])
 
-    # 条件1
-    condition1 = {
-        'Mg_160':1, 
-        'K_1600':1, 
-        'AA_6':5, 
-        'SPD_20':1, 
-        'NTP_30':1, 
-        '3PGA_600':1, 
-        'PEG':1, 
-        'DNA':1, 
-        'cell_extract':5, 
-        'milliQ':3, 
-        'mixture':1
-        }
+    # # 条件1
+    # condition1 = {
+    #     'Mg_80':2, 
+    #     'K_1600':1, 
+    #     'AA_6':5, 
+    #     'SPD_20':1, 
+    #     'NTP_25':1, 
+    #     '3PGA_600':1, 
+    #     'PEG':1, 
+    #     'DNA':1, 
+    #     'cell_extract':5, 
+    #     'milliQ':1, 
+    #     'mixture':1
+    #     }
     
-    for i,(key,value) in enumerate(condition1.items()):
-        pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A1'], new_tip='always')
+    # for _,(key,value) in enumerate(condition1.items()):
+    #     pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A1'], new_tip='always')
         
-    # 条件2
-    condition2 = {
-        'Mg_88':1,
-        'K_1600':1,
-        'AA_6':5,
-        'SPD_20':1,
-        'NTP_30':1,
-        '3PGA_600':1,
-        'PEG':1,
-        'DNA':1,
-        'cell_extract':5,
-        'milliQ':3,
-        'mixture':1
-        }
+    # # 条件2
+    # condition2 = {
+    #     'Mg_44':2,
+    #     'K_1600':1,
+    #     'AA_6':5,
+    #     'SPD_20':1,
+    #     'NTP_25':1,
+    #     '3PGA_600':1,
+    #     'PEG':1,
+    #     'DNA':1,
+    #     'cell_extract':5,
+    #     'milliQ':1,
+    #     'mixture':1
+    #     }
     
-    for i,(key,value) in enumerate(condition2.items()):
-        pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A2'], new_tip='always')
+    # for _,(key,value) in enumerate(condition2.items()):
+    #     pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A2'], new_tip='always')
         
     
-    # 条件3
-    condition3 = {
-        'Mg_16':1,
-        'K_1600':1,
-        'AA_6':5,
-        'SPD_20':1,
-        'NTP_30':1,
-        '3PGA_600':1,
-        'PEG':1,
-        'DNA':1,
-        'cell_extract':5,
-        'milliQ':3,
-        'mixture':1
-        }
+    # # 条件3
+    # condition3 = {
+    #     'Mg_16':1,
+    #     'K_1600':1,
+    #     'AA_6':5,
+    #     'SPD_20':1,
+    #     'NTP_25':1,
+    #     '3PGA_600':1,
+    #     'PEG':1,
+    #     'DNA':1,
+    #     'cell_extract':5,
+    #     'milliQ':2,
+    #     'mixture':1
+    #     }
     
-    for i,(key,value) in enumerate(condition3.items()):
-        pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A3'], new_tip='always')
+    # for _,(key,value) in enumerate(condition3.items()):
+    #     pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A3'], new_tip='always')
 
-    # 条件4
-    condition4 = {
-        'Mg_160':1,
-        'K_880':1,
-        'AA_6':5,
-        'SPD_20':1,
-        'NTP_30':1,
-        '3PGA_600':1,
-        'PEG':1,
-        'DNA':1,
-        'cell_extract':5,
-        'milliQ':3,
-        'mixture':1
-        }
+    # # 条件4
+    # condition4 = {
+    #     'Mg_80':2,
+    #     'K_880':1,
+    #     'AA_6':5,
+    #     'SPD_20':1,
+    #     'NTP_25':1,
+    #     '3PGA_600':1,
+    #     'PEG':1,
+    #     'DNA':1,
+    #     'cell_extract':5,
+    #     'milliQ':1,
+    #     'mixture':1
+    #     }
     
-    for i,(key,value) in enumerate(condition4.items()):
-        pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A4'], new_tip='always')
+    # for _,(key,value) in enumerate(condition4.items()):
+    #     pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A4'], new_tip='always')
 
-    # 条件5
-    condition5 = {
-        'Mg_160':1,
-        'K_160':1,
-        'AA_6':5,
-        'SPD_20':1,
-        'NTP_30':1,
-        '3PGA_600':1,
-        'PEG':1,
-        'DNA':1,
-        'cell_extract':5,
-        'milliQ':3,
-        'mixture':1
-        }
+    # # 条件5
+    # condition5 = {
+    #     'Mg_80':2,
+    #     'K_160':1,
+    #     'AA_6':5,
+    #     'SPD_20':1,
+    #     'NTP_25':1,
+    #     '3PGA_600':1,
+    #     'PEG':1,
+    #     'DNA':1,
+    #     'cell_extract':5,
+    #     'milliQ':1,
+    #     'mixture':1
+    #     }
     
-    for i,(key,value) in enumerate(condition5.items()):
-        pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A5'], new_tip='always')
+    # for _,(key,value) in enumerate(condition5.items()):
+    #     pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A5'], new_tip='always')
         
 
-    # 条件6
-    condition6 = {
-        'Mg_160':1,
-        'K_1600':1,
-        'AA_4.15':4,
-        'SPD_20':1,
-        'NTP_30':1,
-        '3PGA_600':1,
-        'PEG':1,
-        'DNA':1,
-        'cell_extract':5,
-        'milliQ':4,
-        'mixture':1
-        }
+    # # 条件6
+    # condition6 = {
+    #     'Mg_80':2,
+    #     'K_1600':1,
+    #     'AA_4.15':4,
+    #     'SPD_20':1,
+    #     'NTP_25':1,
+    #     '3PGA_600':1,
+    #     'PEG':1,
+    #     'DNA':1,
+    #     'cell_extract':5,
+    #     'milliQ':2,
+    #     'mixture':1
+    #     }
     
-    for i,(key,value) in enumerate(condition6.items()):
-        pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A6'], new_tip='always')
+    # for _,(key,value) in enumerate(condition6.items()):
+    #     pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A6'], new_tip='always')
 
 
-    # 条件7
-    condition7 = {
-        'Mg_160':1,
-        'K_1600':1,
-        'AA_0.6':5,
-        'SPD_20':1,
-        'NTP_30':1,
-        '3PGA_600':1,
-        'PEG':1,
-        'DNA':1,
-        'cell_extract':5,
-        'milliQ':3,
-        'mixture':1
-        }
+    # # 条件7
+    # condition7 = {
+    #     'Mg_80':2,
+    #     'K_1600':1,
+    #     'AA_0.6':5,
+    #     'SPD_20':1,
+    #     'NTP_25':1,
+    #     '3PGA_600':1,
+    #     'PEG':1,
+    #     'DNA':1,
+    #     'cell_extract':5,
+    #     'milliQ':1,
+    #     'mixture':1
+    #     }
     
-    for i,(key,value) in enumerate(condition7.items()):
-        pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A7'], new_tip='always')
+    # for _,(key,value) in enumerate(condition7.items()):
+    #     pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A7'], new_tip='always')
 
     
-    # 条件8
-    condition8 = {
-        'Mg_160':1,
-        'K_1600':1,
-        'AA_6':5,
-        'SPD_11':1,
-        'NTP_30':1,
-        '3PGA_600':1,
-        'PEG':1,
-        'DNA':1,
-        'cell_extract':5,
-        'milliQ':3,
-        'mixture':1
-        }
+    # # 条件8
+    # condition8 = {
+    #     'Mg_80':2,
+    #     'K_1600':1,
+    #     'AA_6':5,
+    #     'SPD_11':1,
+    #     'NTP_25':1,
+    #     '3PGA_600':1,
+    #     'PEG':1,
+    #     'DNA':1,
+    #     'cell_extract':5,
+    #     'milliQ':1,
+    #     'mixture':1
+    #     }
     
-    for i,(key,value) in enumerate(condition8.items()):
-        pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A8'], new_tip='always')
+    # for _,(key,value) in enumerate(condition8.items()):
+    #     pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A8'], new_tip='always')
 
     
      # 条件9
     condition9 = {
-        'Mg_160':1,
+        'Mg_80':2,
         'K_1600':1,
         'AA_6':5,
         'SPD_2':1,
-        'NTP_30':1,
+        'NTP_25':1,
         '3PGA_600':1,
         'PEG':1,
         'DNA':1,
         'cell_extract':5,
-        'milliQ':3,
+        'milliQ':1,
         'mixture':1
         }
     
-    for i,(key,value) in enumerate(condition9.items()):
+    for _,(key,value) in enumerate(condition9.items()):
         pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A9'], new_tip='always')
 
     
-     # 条件10
+    # 条件10
     condition10 = {
-        'Mg_160':1,
+        'Mg_80':2,
         'K_1600':1,
         'AA_6':5,
         'SPD_20':1,
-        'NTP_16.6':1,
+        'NTP_14':1,
         '3PGA_600':1,
         'PEG':1,
         'DNA':1,
         'cell_extract':5,
-        'milliQ':3,
+        'milliQ':2,
         'mixture':1
         }
     
-    for i,(key,value) in enumerate(condition10.items()):
+    for _,(key,value) in enumerate(condition10.items()):
         pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A10'], new_tip='always')
 
     
      # 条件11
     condition11 = {
-        'Mg_160':1,
+        'Mg_80':2,
         'K_1600':1,
         'AA_6':5,
         'SPD_20':1,
@@ -242,47 +241,70 @@ def run(protocol: protocol_api.ProtocolContext):
         'PEG':1,
         'DNA':1,
         'cell_extract':5,
-        'milliQ':3,
+        'milliQ':1,
         'mixture':1
         }
     
-    for i,(key,value) in enumerate(condition11.items()):
+    for _,(key,value) in enumerate(condition11.items()):
         pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A11'], new_tip='always')
 
 
      # 条件12
     condition12 = {
-        'Mg_160':1,
+        'Mg_80':2,
         'K_1600':1,
         'AA_6':5,
         'SPD_20':1,
-        'NTP_30':1,
+        'NTP_25':1,
         '3PGA_330':1,
         'PEG':1,
         'DNA':1,
         'cell_extract':5,
-        'milliQ':3,
+        'milliQ':1,
         'mixture':1
         }
     
-    for i,(key,value) in enumerate(condition12.items()):
+    for _,(key,value) in enumerate(condition12.items()):
         pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A12'], new_tip='always')
 
 
      # 条件13
     condition13 = {
-        'Mg_160':1,
+        'Mg_80':2,
         'K_1600':1,
         'AA_6':5,
         'SPD_20':1,
-        'NTP_30':1,
+        'NTP_25':1,
         '3PGA_60':1,
         'PEG':1,
         'DNA':1,
         'cell_extract':5,
-        'milliQ':3,
+        'milliQ':1,
         'mixture':1
         }
     
-    for i,(key,value) in enumerate(condition13.items()):
+    for _,(key,value) in enumerate(condition13.items()):
         pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A13'], new_tip='always')
+
+    # ネガティブコントロール
+    negative_control = {
+    'Mg_80':2, 
+    'K_1600':1, 
+    'AA_6':5, 
+    'SPD_20':1, 
+    'NTP_25':1, 
+    '3PGA_600':1, 
+    'PEG':1, 
+    'cell_extract':5, 
+    'milliQ':2, 
+    'mixture':1
+    }
+
+    
+    for _ in range(3):
+        for _,(key,value) in enumerate(negative_control.items()):
+            pipette.transfer(int(value), tube_rack[tube_data[key]], well_plate_384['A1'], new_tip='always')
+            
+
+    # チップの開始位置を気を付ける
+    

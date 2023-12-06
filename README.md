@@ -25,3 +25,15 @@ python3 -m opentrons.simulate 実行したいファイルへのpath
 ```shell
 $ python3 -m opentrons.simulate ./test.py
 ```
+
+### 立ち上げたコンテナを終了する方法
+
+```shell
+$ docker stop コンテナ名
+```
+
+### 止めたコンテナを対話的に再起動する方法
+
+```shell
+$ docker start -ai コンテナ名
+```

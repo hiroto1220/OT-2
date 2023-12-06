@@ -5,6 +5,7 @@ metadata = {
     'apiLevel': '2.11'
 }
 
+# チューブラックに設置するする各溶液の種類・濃度とチューブの位置を決める
 tube_data = {
     'AA_6': 'A1',
     'AA_4.15': 'A2',
@@ -32,9 +33,9 @@ tube_data = {
 }
 
 tube_volume = {
-    'AA_6': 88,
-    'AA_4.15': 15,
-    'AA_0.6': 15,
+    'AA_6': 58,
+    'AA_4.15': 11,
+    'AA_0.6': 10,
     'cell_extract': 100,
 }
 
@@ -302,9 +303,9 @@ def run(protocol: protocol_api.ProtocolContext):
     left_pipette.starting_tip = left_tip_rack['A1']
     
     right_pipette = protocol.load_instrument('p300_single_gen2', 'right', tip_racks=[right_tip_rack])
-    right_pipette.starting_tip = right_tip_rack['A1']
+    right_pipette.starting_tip = right_tip_rack['E4']
 
-
+    # 分注させるためのコード
     for k,v in conditions.items():
         # ex.)k='conditiion1', v={'AA_6':5, 'milliQ':1, 'Mg_80':2, 'K_1600':1, 'SPD_20':1, 'NTP_25':1, '3PGA_600':1, 'PEG':1, 'mixture':1, 'DNA':1, 'cell_extract':5}
         
@@ -329,7 +330,7 @@ def run(protocol: protocol_api.ProtocolContext):
 
                 # 細胞抽出液を入れる前にはピペッティングする
                 elif key == 'cell_extract':
-                    pipetting_volume = tube_volume[key]*0.8
+                    pipetting_volume = tube_volume[key]*0.7
                     if pipetting_volume <= 20:
                         left_pipette.pick_up_tip()
                         left_pipette.mix(5, pipetting_volume, tube_rack[tube_data[key]])
@@ -351,8 +352,8 @@ def run(protocol: protocol_api.ProtocolContext):
             
             
     # 最後に全セルをピペッティングする
-    # for k,v in conditions.items():
-    #     left_pipette.pick_up_tip()
-    #     left_pipette.mix(5, 10, well_plate_384[well_num[k]])
-    #     left_pipette.drop_tip()
+    for k,v in conditions.items():
+        left_pipette.pick_up_tip()
+        left_pipette.mix(5, 10, well_plate_384[well_num[k]])
+        left_pipette.drop_tip()
     

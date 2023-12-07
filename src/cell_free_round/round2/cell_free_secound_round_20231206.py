@@ -552,9 +552,33 @@ conditions = {
     'condition6': condition6,
     'condition7': condition7,
     'condition8': condition8,
+    'condition9': condition9,
+    'condition10': condition10,
+    'condition11': condition11,
+    'condition12': condition12,
+    'condition13': condition13,
+    'condition14': condition14,
+    'condition15': condition15,
+    'condition16': condition16,
+    'condition17': condition17,
+    'condition18': condition18,
+    'condition19': condition19,
+    'condition20': condition20,
+    'condition21': condition21,
+    'condition22': condition22,
+    'condition23': condition23,
+    'condition24': condition24,
+     'condition25': condition25,
+    'condition26': condition26,
+    'condition27': condition27,
+    'condition28': condition28,
+    'condition29': condition29,
+    'condition30': condition30,
+    'negative_control1': negative_control,
+    'negative_control2': negative_control,
 }
 
-# 2回目
+# # 2回目
 # conditions = {
 #     'condition9': condition9,
 #     'condition10': condition10,
@@ -566,7 +590,7 @@ conditions = {
 #     'condition16': condition16,
 # }
 
-# 3回目
+# # 3回目
 # conditions = {
 #     'condition17': condition17,
 #     'condition18': condition18,
@@ -578,7 +602,7 @@ conditions = {
 #     'condition24': condition24,
 # }
 
-#4回目
+# #4回目
 # conditions = {
 #     'condition25': condition25,
 #     'condition26': condition26,
@@ -592,12 +616,39 @@ conditions = {
 
 
 # 各チューブの残量を記録する
-tube_volume = {
-    'AA_6': 58,
-    'AA_4.15': 11,
-    'AA_0.6': 10,
-    'cell_extract': 100,
+
+# 1回目
+# tube_volume = {
+#     'AA_6': 200,
+#     'AA_4.15': 0,
+#     'AA_0.6': 0,
+#     'cell_extract': 200,
+# }
+
+# 2回目
+# tube_volume ={
+#     'AA_6': 160,
+#     'AA_4.15': 0,
+#     'AA_0.6': 0,
+#     'cell_extract': 160,
+# }
+
+# 3回目
+# tube_volume ={
+#     'AA_6': 120,
+#     'AA_4.15': 0,
+#     'AA_0.6': 0,
+#     'cell_extract': 120,
+# }
+
+# 4回目
+tube_volume ={
+    'AA_6': 80,
+    'AA_4.15': 0,
+    'AA_0.6': 0,
+    'cell_extract': 80,
 }
+
 #========================================================================================================================================================================
 
 
@@ -616,7 +667,7 @@ def run(protocol: protocol_api.ProtocolContext):
     left_pipette.starting_tip = left_tip_rack['A1']
     
     right_pipette = protocol.load_instrument('p300_single_gen2', 'right', tip_racks=[right_tip_rack])
-    right_pipette.starting_tip = right_tip_rack['E4']
+    right_pipette.starting_tip = right_tip_rack['B1']
 
     # 分注させるためのコード
     for k,v in conditions.items():
@@ -661,7 +712,7 @@ def run(protocol: protocol_api.ProtocolContext):
         
 
 
-    print(tube_volume)
+    # print(tube_volume)
             
             
     # 最後に全セルをピペッティングする

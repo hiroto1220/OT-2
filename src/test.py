@@ -75,7 +75,6 @@ def run(protocol: protocol_api.ProtocolContext):
     right_tip_rack = protocol.load_labware('opentrons_96_tiprack_300ul', 11)
 
     tube_rack = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', 4)
-    well_plate_384 = protocol.load_labware('corning_384_wellplate_112ul_flat', 5)
 
 
     left_pipette = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[left_tip_rack])

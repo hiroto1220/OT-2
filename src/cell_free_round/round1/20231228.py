@@ -36,12 +36,12 @@ tube_data = {
 # 条件1(B2)
 condition1 = {
     'AA_6':5, 
-    'milliQ':1, 
-    'Mg_44':2, 
-    'K_880':1, 
-    'SPD_2':1, 
-    'NTP_14':1, 
-    '3PGA_60':1, 
+    'milliQ':2, 
+    'Mg_16':1, 
+    'K_160':1, 
+    'SPD_20':1, 
+    'NTP_3':1, 
+    '3PGA_330':1, 
     'PEG':1, 
     'mixture':1,
     'DNA':1, 
@@ -50,13 +50,13 @@ condition1 = {
 
 # 条件2(B3)
 condition2 = {
-    'AA_6':5,
-    'milliQ':1,
-    'Mg_80':2,
+    'AA_4.15':4,
+    'milliQ':3,
+    'Mg_16':1,
     'K_1600':1,
     'SPD_2':1,
-    'NTP_14':1,
-    '3PGA_60':1,
+    'NTP_3':1,
+    '3PGA_600':1,
     'PEG':1,
     'mixture':1,
     'DNA':1,
@@ -65,13 +65,13 @@ condition2 = {
 
 # 条件3
 condition3 = {
-    'AA_6':5,
-    'milliQ':1,
-    'Mg_44':2,
-    'K_160':1,
-    'SPD_11':1,
-    'NTP_3':1,
-    '3PGA_330':1,
+    'AA_4.15':4,
+    'milliQ':2,
+    'Mg_80':2,
+    'K_1600':1,
+    'SPD_20':1,
+    'NTP_14':1,
+    '3PGA_600':1,
     'PEG':1,
     'mixture':1,
     'DNA':1,
@@ -81,8 +81,8 @@ condition3 = {
 # 条件4
 condition4 = {
     'AA_6':5,
-    'milliQ':1,
-    'Mg_44':2,
+    'milliQ':2,
+    'Mg_16':1,
     'K_880':1,
     'SPD_11':1,
     'NTP_3':1,
@@ -95,13 +95,13 @@ condition4 = {
 
 # 条件5
 condition5 = {
-    'AA_6':5,
+    'AA_0.6':5,
     'milliQ':1,
-    'Mg_80':2,
-    'K_1600':1,
-    'SPD_11':1,
-    'NTP_14':1,
-    '3PGA_60':1,
+    'Mg_44':2,
+    'K_160':1,
+    'SPD_2':1,
+    'NTP_25':1,
+    '3PGA_330':1,
     'PEG':1,
     'mixture':1,
     'DNA':1,
@@ -112,9 +112,9 @@ condition5 = {
 condition6 = {
     'AA_6':5,
     'milliQ':1,
-    'Mg_44':2,
-    'K_1600':1,
-    'SPD_11':1,
+    'Mg_80':2,
+    'K_160':1,
+    'SPD_2':1,
     'NTP_3':1,
     '3PGA_330':1,
     'PEG':1,
@@ -128,10 +128,10 @@ condition7 = {
     'AA_6':5,
     'milliQ':1,
     'Mg_44':2,
-    'K_160':1,
-    'SPD_2':1,
+    'K_1600':1,
+    'SPD_20':1,
     'NTP_14':1,
-    '3PGA_330':1,
+    '3PGA_600':1,
     'PEG':1,
     'mixture':1,
     'DNA':1,
@@ -140,12 +140,12 @@ condition7 = {
 
  # 条件8
 condition8 = {
-    'AA_6':5,
-    'milliQ':1,
-    'Mg_80':2,
-    'K_880':1,
-    'SPD_11':1,
-    'NTP_14':1,
+    'AA_0.6':5,
+    'milliQ':2,
+    'Mg_16':1,
+    'K_1600':1,
+    'SPD_2':1,
+    'NTP_25':1,
     '3PGA_60':1,
     'PEG':1,
     'mixture':1,
@@ -157,10 +157,10 @@ condition8 = {
 condition9 = {
     'AA_6':5,
     'milliQ':1,
-    'Mg_80':2,
-    'K_160':1,
-    'SPD_11':1,
-    'NTP_14':1,
+    'Mg_44':2,
+    'K_1600':1,
+    'SPD_2':1,
+    'NTP_3':1,
     '3PGA_60':1,
     'PEG':1,
     'mixture':1,
@@ -170,13 +170,13 @@ condition9 = {
 
 # 条件10
 condition10 = {
-    'AA_6':5,
+    'AA_4.15':4,
     'milliQ':2,
-    'Mg_16':1,
+    'Mg_80':2,
     'K_160':1,
-    'SPD_11':1,
-    'NTP_3':1,
-    '3PGA_330':1,
+    'SPD_2':1,
+    'NTP_14':1,
+    '3PGA_60':1,
     'PEG':1,
     'mixture':1,
     'DNA':1,
@@ -186,12 +186,12 @@ condition10 = {
 # 条件11
 condition11 = {
     'AA_6':5,
-    'milliQ':1,
-    'Mg_44':2,
+    'milliQ':2,
+    'Mg_16':1,
     'K_880':1,
-    'SPD_2':1,
-    'NTP_14':1,
-    '3PGA_330':1,
+    'SPD_20':1,
+    'NTP_25':1,
+    '3PGA_60':1,
     'PEG':1,
     'mixture':1,
     'DNA':1,
@@ -200,13 +200,13 @@ condition11 = {
 
 # 条件12
 condition12 = {
-    'AA_6': 5,
-    'milliQ': 1,
+    'AA_4.15': 4,
+    'milliQ': 2,
     'Mg_80': 2,
-    'K_1600': 1,
-    'SPD_11': 1,
-    'NTP_14': 1,
-    '3PGA_330': 1,
+    'K_880': 1,
+    'SPD_20': 1,
+    'NTP_3': 1,
+    '3PGA_60': 1,
     'PEG': 1,
     'mixture': 1,
     'DNA': 1,
@@ -216,13 +216,13 @@ condition12 = {
 
 # 条件13
 condition13 = {
-    'AA_6':5,
-    'milliQ':1,
-    'Mg_80':2,
-    'K_1600':1,
-    'SPD_20':1,
-    'NTP_14':1,
-    '3PGA_330':1,
+    'AA_4.15':4,
+    'milliQ':3,
+    'Mg_16':1,
+    'K_880':1,
+    'SPD_11':1,
+    'NTP_3':1,
+    '3PGA_600':1,
     'PEG':1,
     'mixture':1,
     'DNA':1,
@@ -231,10 +231,10 @@ condition13 = {
 
 # 条件14
 condition14 = {
-    'AA_6':5,
-    'milliQ':1,
-    'Mg_80':2,
-    'K_1600':1,
+    'AA_0.6':5,
+    'milliQ':2,
+    'Mg_16':1,
+    'K_880':1,
     'SPD_20':1,
     'NTP_3':1,
     '3PGA_330':1,
@@ -246,13 +246,13 @@ condition14 = {
 
 # 条件15
 condition15 = {
-    'AA_6':5,
+    'AA_0.6':5,
     'milliQ':1,
-    'Mg_80':2,
+    'Mg_44':2,
     'K_1600':1,
-    'SPD_20':1,
-    'NTP_3':1,
-    '3PGA_60':1,
+    'SPD_2':1,
+    'NTP_14':1,
+    '3PGA_600':1,
     'PEG':1,
     'mixture':1,
     'DNA':1,
@@ -262,12 +262,12 @@ condition15 = {
 # 条件16
 condition16 = {
     'AA_6':5,
-    'milliQ':1,
-    'Mg_44':2,
-    'K_160':1,
-    'SPD_11':1,
-    'NTP_14':1,
-    '3PGA_60':1,
+    'milliQ':2,
+    'Mg_16':1,
+    'K_1600':1,
+    'SPD_20':1,
+    'NTP_25':1,
+    '3PGA_600':1,
     'PEG':1,
     'mixture':1,
     'DNA':1,
@@ -277,12 +277,12 @@ condition16 = {
 # 条件17
 condition17 = {
     'AA_6':5,
-    'milliQ':1,
-    'Mg_44':2,
-    'K_880':1,
-    'SPD_11':1,
-    'NTP_14':1,
-    '3PGA_60':1,
+    'milliQ':2,
+    'Mg_44':1,
+    'K_1600':1,
+    'SPD_2':1,
+    'NTP_3':1,
+    '3PGA_600':1,
     'PEG':1,
     'mixture':1,
     'DNA':1,
@@ -294,68 +294,8 @@ condition18 = {
     'AA_6':5,
     'milliQ':2,
     'Mg_16':1,
-    'K_160':1,
-    'SPD_11':1,
-    'NTP_14':1,
-    '3PGA_60':1,
-    'PEG':1,
-    'mixture':1,
-    'DNA':1,
-    'cell_extract':5,
-    }
-
-# 条件19
-condition19 = {
-    'AA_6':5,
-    'milliQ':2,
-    'Mg_16':1,
-    'K_160':1,
-    'SPD_2':1,
-    'NTP_14':1,
-    '3PGA_330':1,
-    'PEG':1,
-    'mixture':1,
-    'DNA':1,
-    'cell_extract':5,
-    }
-
-# 条件20
-condition20 = {
-    'AA_6':5,
-    'milliQ':1,
-    'Mg_80':2,
     'K_880':1,
-    'SPD_11':1,
-    'NTP_14':1,
-    '3PGA_330':1,
-    'PEG':1,
-    'mixture':1,
-    'DNA':1,
-    'cell_extract':5,
-    }
-
-# 条件21
-condition21 = {
-    'AA_6':5,
-    'milliQ':1,
-    'Mg_80':2,
-    'K_160':1,
-    'SPD_11':1,
-    'NTP_14':1,
-    '3PGA_330':1,
-    'PEG':1,
-    'mixture':1,
-    'DNA':1,
-    'cell_extract':5,
-    }
-
-# 条件22
-condition22 = {
-    'AA_6':5,
-    'milliQ':1,
-    'Mg_80':2,
-    'K_880':1,
-    'SPD_11':1,
+    'SPD_20':1,
     'NTP_25':1,
     '3PGA_600':1,
     'PEG':1,
@@ -364,14 +304,14 @@ condition22 = {
     'cell_extract':5,
     }
 
-# 条件23
-condition23 = {
-    'AA_6':5,
+# 条件19
+condition19 = {
+    'AA_0.6':5,
     'milliQ':1,
-    'Mg_80':2,
-    'K_880':1,
-    'SPD_20':1,
-    'NTP_3':1,
+    'Mg_44':2,
+    'K_1600':1,
+    'SPD_11':1,
+    'NTP_14':1,
     '3PGA_60':1,
     'PEG':1,
     'mixture':1,
@@ -379,12 +319,42 @@ condition23 = {
     'cell_extract':5,
     }
 
-# 条件24
-condition24 = {
-    'AA_6':5,
+# 条件20
+condition20 = {
+    'AA_0.6':5,
+    'milliQ':1,
+    'Mg_44':2,
+    'K_160':1,
+    'SPD_20':1,
+    'NTP_3':1,
+    '3PGA_600':1,
+    'PEG':1,
+    'mixture':1,
+    'DNA':1,
+    'cell_extract':5,
+    }
+
+# 条件21
+condition21 = {
+    'AA_0.6':5,
     'milliQ':1,
     'Mg_80':2,
-    'K_880':1,
+    'K_1600':1,
+    'SPD_2':1,
+    'NTP_3':1,
+    '3PGA_600':1,
+    'PEG':1,
+    'mixture':1,
+    'DNA':1,
+    'cell_extract':5,
+    }
+
+# 条件22
+condition22 = {
+    'AA_4.15':4,
+    'milliQ':3,
+    'Mg_16':1,
+    'K_1600':1,
     'SPD_20':1,
     'NTP_3':1,
     '3PGA_330':1,
@@ -394,14 +364,44 @@ condition24 = {
     'cell_extract':5,
     }
 
-# 条件25
-condition25 = {
-    'AA_6':5,
+# 条件23
+condition23 = {
+    'AA_0.6':5,
     'milliQ':1,
     'Mg_80':2,
-    'K_880':1,
+    'K_160':1,
     'SPD_20':1,
-    'NTP_14':1,
+    'NTP_25':1,
+    '3PGA_600':1,
+    'PEG':1,
+    'mixture':1,
+    'DNA':1,
+    'cell_extract':5,
+    }
+
+# 条件24
+condition24 = {
+    'AA_4.15':4,
+    'milliQ':2,
+    'Mg_44':2,
+    'K_1600':1,
+    'SPD_20':1,
+    'NTP_3':1,
+    '3PGA_60':1,
+    'PEG':1,
+    'mixture':1,
+    'DNA':1,
+    'cell_extract':5,
+    }
+
+# 条件25
+condition25 = {
+    'AA_4.15':4,
+    'milliQ':2,
+    'Mg_80':2,
+    'K_160':1,
+    'SPD_2':1,
+    'NTP_3':1,
     '3PGA_60':1,
     'PEG':1,
     'mixture':1,
@@ -411,13 +411,13 @@ condition25 = {
 
 # 条件26
 condition26 = {
-    'AA_6':5,
-    'milliQ':1,
-    'Mg_80':2,
-    'K_160':1,
-    'SPD_20':1,
-    'NTP_3':1,
-    '3PGA_60':1,
+    'AA_4.15':4,
+    'milliQ':3,
+    'Mg_16':1,
+    'K_1600':1,
+    'SPD_11':1,
+    'NTP_25':1,
+    '3PGA_600':1,
     'PEG':1,
     'mixture':1,
     'DNA':1,
@@ -430,9 +430,9 @@ condition27 = {
     'milliQ':1,
     'Mg_80':2,
     'K_160':1,
-    'SPD_20':1,
-    'NTP_3':1,
-    '3PGA_330':1,
+    'SPD_2':1,
+    'NTP_25':1,
+    '3PGA_600':1,
     'PEG':1,
     'mixture':1,
     'DNA':1,
@@ -442,12 +442,12 @@ condition27 = {
 # 条件28
 condition28 = {
     'AA_6':5,
-    'milliQ':1,
-    'Mg_80':2,
-    'K_160':1,
-    'SPD_20':1,
-    'NTP_3':1,
-    '3PGA_600':1,
+    'milliQ':2,
+    'Mg_16':1,
+    'K_880':1,
+    'SPD_11':1,
+    'NTP_25':1,
+    '3PGA_60':1,
     'PEG':1,
     'mixture':1,
     'DNA':1,
@@ -456,12 +456,12 @@ condition28 = {
 
 # 条件29
 condition29 = {
-    'AA_6':5,
-    'milliQ':1,
-    'Mg_44':2,
+    'AA_0.6':5,
+    'milliQ':2,
+    'Mg_16':1,
     'K_160':1,
     'SPD_20':1,
-    'NTP_3':1,
+    'NTP_25':1,
     '3PGA_60':1,
     'PEG':1,
     'mixture':1,
@@ -471,13 +471,13 @@ condition29 = {
 
 # 条件30
 condition30 = {
-    'AA_6':5,
-    'milliQ':1,
-    'Mg_44':2,
-    'K_880':1,
-    'SPD_20':1,
-    'NTP_3':1,
-    '3PGA_60':1,
+    'AA_0.6':5,
+    'milliQ':2,
+    'Mg_16':1,
+    'K_1600':1,
+    'SPD_11':1,
+    'NTP_25':1,
+    '3PGA_600':1,
     'PEG':1,
     'mixture':1,
     'DNA':1,
@@ -557,6 +557,7 @@ well_num = {
 # 各条件の文字列と辞書型の変数を対応させる
 
 conditions = {
+    'positive_control': positive_control,
     'condition1': condition1,
     'condition2': condition2,
     'condition3': condition3,
@@ -587,16 +588,15 @@ conditions = {
     'condition28': condition28,
     'condition29': condition29,
     'condition30': condition30,
-    'positive_control': positive_control,
     'negative_control': negative_control,
 }
 
 
 # 各チューブの残量を記録する
 tube_volume = {
-    'AA_6': 200,
-    'AA_4.15': 0,
-    'AA_0.6': 0,
+    'AA_6': 80,
+    'AA_4.15': 50,
+    'AA_0.6': 60,
     'cell_extract': 200,
 }
 
@@ -612,19 +612,20 @@ def run(protocol: protocol_api.ProtocolContext):
     tip_rack_p20_2 = protocol.load_labware('opentrons_96_tiprack_20ul', 11)
     tip_rack_p20_3 = protocol.load_labware('opentrons_96_tiprack_20ul', 7)
     tip_rack_p20_4 = protocol.load_labware('opentrons_96_tiprack_20ul', 8)
+    tip_rack_p20_5 = protocol.load_labware('opentrons_96_tiprack_20ul', 5)
 
-    tip_rack_p300 = protocol.load_labware('opentrons_96_tiprack_300ul', 9)
-    tiprack_p300_2 = protocol.load_labware('opentrons_96_tiprack_300ul', 6)
+    # tip_rack_p300 = protocol.load_labware('opentrons_96_tiprack_300ul', 9)
+    tip_rack_p300_2 = protocol.load_labware('opentrons_96_tiprack_300ul', 6)
 
     tube_rack = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', 1)
     well_plate_384 = protocol.load_labware('corning_384_wellplate_112ul_flat', 2)
 
 
-    left_pipette = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[tip_rack_p20,tip_rack_p20_2,tip_rack_p20_3,tip_rack_p20_4])
+    left_pipette = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[tip_rack_p20,tip_rack_p20_2,tip_rack_p20_3,tip_rack_p20_4,tip_rack_p20_5])
     left_pipette.starting_tip = tip_rack_p20['A1']
     
-    right_pipette = protocol.load_instrument('p300_single_gen2', 'right', tip_racks=[tip_rack_p300,tiprack_p300_2])
-    right_pipette.starting_tip = tip_rack_p300['B11']
+    right_pipette = protocol.load_instrument('p300_single_gen2', 'right', tip_racks=[tip_rack_p300_2])
+    right_pipette.starting_tip = tip_rack_p300_2['A1']
 
     # 分注させるためのコード
     for k,v in conditions.items():
@@ -651,7 +652,7 @@ def run(protocol: protocol_api.ProtocolContext):
 
                 # 細胞抽出液を入れる前にはピペッティングする
                 elif key == 'cell_extract':
-                    pipetting_volume = tube_volume[key]*0.7
+                    pipetting_volume = tube_volume[key]*0.5
                     if pipetting_volume <= 20:
                         left_pipette.pick_up_tip()
                         left_pipette.mix(5, pipetting_volume, tube_rack[tube_data[key]],rate=0.5)

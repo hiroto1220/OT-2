@@ -1,0 +1,6 @@
+version: "1"
+services:
+  ot-2:
+    build: .
+    image: ot-2
+    container_name: ot-2

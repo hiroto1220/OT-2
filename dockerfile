@@ -10,3 +10,4 @@ RUN pip install -r requirements.txt
 
 COPY ./src ./
 
+ENTRYPOINT ["python3", "-m", "opentrons.simulate", "./cell_free_round/round6/20240202.py"]

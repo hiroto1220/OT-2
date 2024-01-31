@@ -11,7 +11,9 @@ $ docker build -t ot-2 .
 ### 2. ビルドしたイメージをしようしてコンテナを立ち上げて対話的にコマンドを実行する
 
 ```shell
-$ docker run -it ot-2 sh
+$ docker run --name ot-2 -it ot-2 sh
+$ docker start ot-2 sh
+$ docker exec -it ot-2 sh
 ```
 
 ### 3. シミュレーションする

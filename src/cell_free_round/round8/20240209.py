@@ -33,36 +33,36 @@ tube_data = {
 }
 
 # 各条件
-condition1={'AA_6': 5, 'milliQ': 1.0, 'Mg_80': 2, 'K_880': 1, 'SPD_2': 1, 'NTP_25': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition2={'AA_4.15': 4, 'milliQ': 3.0, 'Mg_16': 1, 'K_1600': 1, 'SPD_20': 1, 'NTP_25': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition3={'AA_6': 5, 'milliQ': 1.0, 'Mg_80': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_25': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition4={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_20': 1, 'NTP_14': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition5={'AA_6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_25': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition6={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_11': 1, 'NTP_25': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition7={'AA_6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_14': 1, '3PGA_600': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition8={'AA_6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_25': 1, '3PGA_600': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition9={'AA_6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_14': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition10={'AA_0.6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_20': 1, 'NTP_25': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition11={'AA_6': 5, 'milliQ': 1.0, 'Mg_80': 2, 'K_880': 1, 'SPD_2': 1, 'NTP_14': 1, '3PGA_600': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition12={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_25': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition13={'AA_6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_880': 1, 'SPD_2': 1, 'NTP_25': 1, '3PGA_600': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition14={'AA_6': 5, 'milliQ': 1.0, 'Mg_80': 2, 'K_880': 1, 'SPD_2': 1, 'NTP_14': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition15={'AA_6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_880': 1, 'SPD_2': 1, 'NTP_25': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition16={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_14': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition17={'AA_6': 5, 'milliQ': 1.0, 'Mg_80': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_14': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition18={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_14': 1, '3PGA_600': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition19={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_80': 2, 'K_880': 1, 'SPD_2': 1, 'NTP_25': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition20={'AA_6': 5, 'milliQ': 1.0, 'Mg_80': 2, 'K_880': 1, 'SPD_2': 1, 'NTP_25': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition21={'AA_4.15': 4, 'milliQ': 3.0, 'Mg_16': 1, 'K_1600': 1, 'SPD_20': 1, 'NTP_14': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition22={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_11': 1, 'NTP_25': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition23={'AA_0.6': 5, 'milliQ': 2.0, 'Mg_16': 1, 'K_1600': 1, 'SPD_20': 1, 'NTP_25': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition24={'AA_6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_25': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition25={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_25': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition26={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_80': 2, 'K_880': 1, 'SPD_2': 1, 'NTP_25': 1, '3PGA_600': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition27={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_44': 2, 'K_880': 1, 'SPD_20': 1, 'NTP_25': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition28={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_11': 1, 'NTP_14': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition29={'AA_6': 5, 'milliQ': 2.0, 'Mg_16': 1, 'K_1600': 1, 'SPD_20': 1, 'NTP_25': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
-condition30={'AA_6': 5, 'milliQ': 1.0, 'Mg_80': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_3': 1, '3PGA_600': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition1={'AA_6': 5, 'milliQ': 1.0, 'Mg_80': 2, 'K_160': 1, 'SPD_20': 1, 'NTP_25': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition2={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_80': 2, 'K_160': 1, 'SPD_20': 1, 'NTP_25': 1, '3PGA_600': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition3={'AA_6': 5, 'milliQ': 1.0, 'Mg_80': 2, 'K_160': 1, 'SPD_20': 1, 'NTP_14': 1, '3PGA_600': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition4={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_80': 2, 'K_160': 1, 'SPD_11': 1, 'NTP_25': 1, '3PGA_600': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition5={'AA_6': 5, 'milliQ': 2.0, 'Mg_16': 1, 'K_880': 1, 'SPD_20': 1, 'NTP_25': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition6={'AA_6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_160': 1, 'SPD_20': 1, 'NTP_25': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition7={'AA_6': 5, 'milliQ': 1.0, 'Mg_80': 2, 'K_160': 1, 'SPD_11': 1, 'NTP_14': 1, '3PGA_600': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition8={'AA_0.6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_25': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition9={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_80': 2, 'K_160': 1, 'SPD_2': 1, 'NTP_25': 1, '3PGA_600': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition10={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_80': 2, 'K_880': 1, 'SPD_2': 1, 'NTP_14': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition11={'AA_6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_880': 1, 'SPD_11': 1, 'NTP_25': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition12={'AA_6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_880': 1, 'SPD_20': 1, 'NTP_14': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition13={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_80': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_3': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition14={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_11': 1, 'NTP_3': 1, '3PGA_600': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition15={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_3': 1, '3PGA_600': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition16={'AA_4.15': 4, 'milliQ': 3.0, 'Mg_16': 1, 'K_880': 1, 'SPD_20': 1, 'NTP_25': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition17={'AA_6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_160': 1, 'SPD_20': 1, 'NTP_25': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition18={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_80': 2, 'K_160': 1, 'SPD_20': 1, 'NTP_14': 1, '3PGA_600': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition19={'AA_6': 5, 'milliQ': 1.0, 'Mg_80': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_3': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition20={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_44': 2, 'K_880': 1, 'SPD_20': 1, 'NTP_14': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition21={'AA_6': 5, 'milliQ': 1.0, 'Mg_80': 2, 'K_160': 1, 'SPD_20': 1, 'NTP_25': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition22={'AA_0.6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_25': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition23={'AA_6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_14': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition24={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_14': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition25={'AA_6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_880': 1, 'SPD_20': 1, 'NTP_14': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition26={'AA_6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_20': 1, 'NTP_14': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition27={'AA_6': 5, 'milliQ': 2.0, 'Mg_16': 1, 'K_880': 1, 'SPD_20': 1, 'NTP_14': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition28={'AA_6': 5, 'milliQ': 1.0, 'Mg_44': 2, 'K_880': 1, 'SPD_11': 1, 'NTP_25': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition29={'AA_4.15': 4, 'milliQ': 2.0, 'Mg_44': 2, 'K_1600': 1, 'SPD_2': 1, 'NTP_3': 1, '3PGA_330': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
+condition30={'AA_0.6': 5, 'milliQ': 1.0, 'Mg_80': 2, 'K_880': 1, 'SPD_2': 1, 'NTP_25': 1, '3PGA_60': 1, 'PEG': 1, 'mixture': 1, 'DNA': 1, 'cell_extract': 5}
 
 # ネガティブコントロール
 negative_control = {
@@ -176,9 +176,9 @@ conditions = {
 
 # 各チューブの残量を記録する
 tube_volume = {
-    'AA_6': 155,
-    'AA_4.15': 38,
-    'AA_0.6': 30,
+    'AA_6': 105,
+    'AA_4.15': 160,
+    'AA_0.6': 160,
     'cell_extract': 200,
 }
 
@@ -193,17 +193,17 @@ def run(protocol: protocol_api.ProtocolContext):
     tip_rack_p20_5 = protocol.load_labware('opentrons_96_tiprack_20ul', 5)
 
     tip_rack_p300 = protocol.load_labware('opentrons_96_tiprack_300ul', 9)
-    # tip_rack_p300_2 = protocol.load_labware('opentrons_96_tiprack_300ul', 6)
+    tip_rack_p300_2 = protocol.load_labware('opentrons_96_tiprack_300ul', 6)
 
     tube_rack = protocol.load_labware('opentrons_24_tuberack_eppendorf_1.5ml_safelock_snapcap', 1)
     well_plate_384 = protocol.load_labware('corning_384_wellplate_112ul_flat', 2)
 
 
     left_pipette = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[tip_rack_p20,tip_rack_p20_2,tip_rack_p20_3,tip_rack_p20_4,tip_rack_p20_5])
-    left_pipette.starting_tip = tip_rack_p20['A1']
+    left_pipette.starting_tip = tip_rack_p20['H5']
     
-    right_pipette = protocol.load_instrument('p300_single_gen2', 'right', tip_racks=[tip_rack_p300])
-    right_pipette.starting_tip = tip_rack_p300['C6']
+    right_pipette = protocol.load_instrument('p300_single_gen2', 'right', tip_racks=[tip_rack_p300,tip_rack_p300_2])
+    right_pipette.starting_tip = tip_rack_p300['G12']
 
     # 分注させるためのコード
     for k,v in conditions.items():
@@ -245,11 +245,11 @@ def run(protocol: protocol_api.ProtocolContext):
     # 細胞抽出液を攪拌する
     if pipetting_volume <= 20:
         left_pipette.pick_up_tip()
-        left_pipette.mix(5, pipetting_volume, tube_rack[tube_data[key]],rate=0.5)
+        left_pipette.mix(5, pipetting_volume, tube_rack[tube_data["cell_extract"]],rate=0.5)
         left_pipette.drop_tip()
     else:
         right_pipette.pick_up_tip()
-        right_pipette.mix(5, pipetting_volume, tube_rack[tube_data[key]],rate=0.5)
+        right_pipette.mix(5, pipetting_volume, tube_rack[tube_data["cell_extract"]],rate=0.5)
         right_pipette.drop_tip()
 
 

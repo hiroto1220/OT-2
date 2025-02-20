@@ -3,7 +3,8 @@
 ## OT-2 のコードをシミュレーションする方法
 
 ### 前提条件
-Docker Desktopをインストールしていない場合はインストールし、Docker Desktopのアプリケーションが起動していることを確認する。
+Docker DesktopがPCにインストールされており、Docker Desktopが起動している。<br/>
+インストールされていない場合は以下のリンクからインストールする。
 
 [Mac用のインストール手順](https://docs.docker.com/desktop/install/mac-install/)
 

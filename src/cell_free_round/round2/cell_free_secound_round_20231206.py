@@ -543,43 +543,15 @@ well_num = {
 # 各条件の文字列と辞書型の変数を対応させる
 
 # 1回目
-conditions = {
-    'condition1': condition1,
-    'condition2': condition2,
-    'condition3': condition3,
-    'condition4': condition4,
-    'condition5': condition5,
-    'condition6': condition6,
-    'condition7': condition7,
-    'condition8': condition8,
-    'condition9': condition9,
-    'condition10': condition10,
-    'condition11': condition11,
-    'condition12': condition12,
-    'condition13': condition13,
-    'condition14': condition14,
-    'condition15': condition15,
-    'condition16': condition16,
-    'condition17': condition17,
-    'condition18': condition18,
-    'condition19': condition19,
-    'condition20': condition20,
-    'condition21': condition21,
-    'condition22': condition22,
-    'condition23': condition23,
-    'condition24': condition24,
-     'condition25': condition25,
-    'condition26': condition26,
-    'condition27': condition27,
-    'condition28': condition28,
-    'condition29': condition29,
-    'condition30': condition30,
-    'negative_control1': negative_control,
-    'negative_control2': negative_control,
-}
-
-# # 2回目
 # conditions = {
+#     'condition1': condition1,
+#     'condition2': condition2,
+#     'condition3': condition3,
+#     'condition4': condition4,
+#     'condition5': condition5,
+#     'condition6': condition6,
+#     'condition7': condition7,
+#     'condition8': condition8,
 #     'condition9': condition9,
 #     'condition10': condition10,
 #     'condition11': condition11,
@@ -588,7 +560,35 @@ conditions = {
 #     'condition14': condition14,
 #     'condition15': condition15,
 #     'condition16': condition16,
+#     'condition17': condition17,
+#     'condition18': condition18,
+#     'condition19': condition19,
+#     'condition20': condition20,
+#     'condition21': condition21,
+#     'condition22': condition22,
+#     'condition23': condition23,
+#     'condition24': condition24,
+#      'condition25': condition25,
+#     'condition26': condition26,
+#     'condition27': condition27,
+#     'condition28': condition28,
+#     'condition29': condition29,
+#     'condition30': condition30,
+#     'negative_control1': negative_control,
+#     'negative_control2': negative_control,
 # }
+
+# # 2回目
+conditions = {
+    'condition9': condition9,
+    'condition10': condition10,
+    'condition11': condition11,
+    'condition12': condition12,
+    'condition13': condition13,
+    'condition14': condition14,
+    'condition15': condition15,
+    'condition16': condition16,
+}
 
 # # 3回目
 # conditions = {

@@ -4,3 +4,4 @@ services:
     build: .
     image: ot-2
     container_name: ot-2
+    command: ["./cell_free_round/round2/cell_free_secound_round_20231206.py"]

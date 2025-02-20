@@ -14,7 +14,7 @@ Docker Desktopをインストールしていない場合はインストールし
 docker build -t ot-2 .
 ```
 
-### 2. ビルドしたイメージをしようしてコンテナを立ち上げて対話的にコマンドを実行する
+### 2. docker runでコンテナを起動してシミュレーションしたいOT-2の実行ファイルを指定する
 
 ```shell
 docker run --rm ot-2 ./cell_free_round/round1/20231228.py
